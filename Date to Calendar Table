@@ -1,0 +1,12 @@
+Tabela Calendário = 
+ADDCOLUMNS(
+    CALENDARAUTO(),
+    "Dia num", DAY([Date]),
+    "Dia nome", FORMAT([Date], "dddd"),
+    "Dia Semana", WEEKDAY([Date]),
+    "Semana Num", WEEKNUM([Date]),
+    "Mês Num", MONTH([Date]),
+    "Mês Nome", FORMAT([Date], "mmm"),
+    "Trimestre", QUARTER([Date]),
+    "Ano", YEAR([Date])
+)
