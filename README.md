@@ -1,7 +1,7 @@
 # DAX
 MEDIDAS E PROGRAMAÇÃO EM DAX
 
-#ValorVenda YoY% = # 
+ValorVenda YoY% =  
  IF(
     ISFILTERED('Tabela Calendario'[Date]),
     VAR __PREV_YEAR =
